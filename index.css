@@ -1,0 +1,49 @@
+:root {
+    --primary: #ffffff;
+    --secondary: #848D9B;
+    --accent: #90D5FF;
+    --primary-rgb: (255, 255, 255);
+    --secondary-rgb: (0, 0, 0);
+    --accent-rgb: (144, 213, 255);
+}
+
+.navbar {
+    background-color: var(--accent)
+}
+
+.nav-color {
+    color: var(--primary);
+}
+
+.nav-color:hover {
+    color: var(--secondary);
+}
+
+.hero-container {
+    height: 75vh;
+}
+
+.carousel {
+    border-radius: 15px;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+.video {
+    height: 75vh;
+    background-color: var(--secondary);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: var(--accent);
+    height: 200px;
+    margin-top: 50px;
+}
