@@ -7,6 +7,11 @@
     --accent-rgb: (144, 213, 255);
 }
 
+body {
+    background-color: var(--primary);
+    font-family: Raleway, sans-serif;
+}
+
 .navbar {
     background-color: var(--accent)
 }
@@ -67,21 +72,31 @@
     border-radius: 15px;
 }
 
-body {
-    background-color: var(--primary);
+p {
+    text-align: center;
 }
 
 .video {
-    height: 75vh;
+    height: 100vh;
     background-color: var(--secondary);
 }
 
 .center {
-    text-align: center;
+    display: grid;
+    place-items: center;
 }
 
 footer {
     background-color: var(--accent);
     height: 200px;
     margin-top: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 40px;
+    color: var(--secondary);
+    padding: 50px;
 }
